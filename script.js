@@ -7,7 +7,8 @@ container.style.height = global_width + "px";
 container.style.display = "flex";
 container.style.flexWrap = "wrap";
 container.style.alignItems = "center";
-container.style.border = "1px solid black";
+container.style.backgroundColor = "white";
+container.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.5)";
 
 let body = document.querySelector("body");
 body.style.display = "flex";
@@ -16,6 +17,11 @@ body.style.alignItems = "center";
 body.style.justifyContent = "center";
 body.style.gap = "10px";
 body.style.marginTop = "20px";
+body.style.backgroundColor = "lightgray";
+
+let header = document.createElement("h1");
+header.textContent = "Etch n' Sketch";
+body.appendChild(header);
 
 let left = document.createElement("div");
 left.style.display = "flex";
