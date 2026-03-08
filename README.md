@@ -1,6 +1,6 @@
 # Etch'n'sketch
 
-Project created for [Project Odin]((https://www.theodinproject.com/lessons/foundations-etch-a-sketch))
+Project created for [Project Odin](https://www.theodinproject.com/lessons/foundations-etch-a-sketch).
 
 ## Features 
 
@@ -25,7 +25,7 @@ To change opacity of your brush move the slider.
 
 To change grid size click "Change grid size" button. Alert will pop up and then input your prefered size. Be aware that this clears canvas!
 
-![Change grid size](image.png)
+![Change grid size](./images/size.png)
 
 ## Live Preview 
 
